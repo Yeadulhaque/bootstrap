@@ -1,0 +1,205 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*global titile css start---for title of section */
+.title h4{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #008ed6;
+}
+.title h1{
+	font-size: 54px;
+	font-weight: 600;
+	line-height: 64px;
+	letter-spacing: 2px;
+	color: #1a1a1a;
+}
+/*header code start*/
+.header{
+	width: 100%;
+	background: url("../images/baner.png") center top no-repeat;
+	background-size: cover;
+}
+.header .navbar-nav .nav-item .nav-link{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight:500;
+	color: #fff;
+	margin: 0px 0px 0px 25px;
+}
+.header .navbar-nav .nav-item .nav-link:hover, .header .navbar-nav .nav-item .nav-link:focus{
+	background: url("../images/kk.png") bottom center no-repeat;
+	background-size: auto;
+}
+.header .navbar-nav .nav-link.active{
+	background: url("../images/kk.png") bottom center no-repeat;
+	background-size: auto;
+}
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-banner{
+	width: 100%;
+	padding: 60px 0px;
+}
+.inner-banner h4{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #008ed6;
+
+}
+.inner-banner h1{
+	font-size: 54px;
+	font-weight: 600;
+	line-height: 64px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.inner-banner p{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+	
+	color: #999999;
+}
+.inner-button{
+	width: 100%;
+	padding: 30px 0px 0px;
+}
+.inner-button .btn-primary{
+	padding: 15px 20px;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 2px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+	background:#008ed6;
+	border: 1px solid #008ed6;
+	transition: 1s;
+
+}
+.inner-button .btn-primary:hover, .inner-button .btn-primary:focus{
+	color:#008ed6;
+	background:transparent;
+	border: 1px solid #008ed6;
+
+}
+.inner-button .btn-light{
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 2px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+	background:transparent;
+	border: 1px solid #008ed6;
+	transition: 1s;
+	margin: 0px 0px 0px 10px;
+
+}
+.inner-button .btn-light:hover, .inner-button .btn-light:focus{
+	color:#fff;
+	background:#008ed6;
+	border: 1px solid #008ed6;
+
+}
+.features{
+	width: 100%;
+	padding: 80px 0px;
+}
+.features .title{
+	text-align: center;
+}
+.features .title img{
+	margin: 20px 0px 0px;
+}
+.inner-features{
+	width: 100%;
+	padding: 40px 20px;
+	text-align: center;
+}
+.inner-features .icon{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+	border: 1px solid #e5e5e5;
+	margin: 0px auto 20px;
+}
+.inner-features .icon .fa{
+	font-size: 28px;
+	color:#008ed6 ;
+}
+.inner-features h4{
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 32px;
+	color: #000;
+	text-transform: capitalize;
+}
+.inner-features p{
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #999;
+}
+/*about-long code start*/
+.about-long{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+.inner-about-long{
+	width: 100%;
+	margin: 35px 0px 0px;
+}
+.inner-about-long .b{
+	width: 100%;
+	padding: 0px 0px 15px 0px;
+}
+.inner-about-long p{
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #999;
+}
+.inner-about-long ul{
+	padding: 0px;
+	display: block;
+	margin: 20px 0px 0px;
+
+}
+.inner-about-long ul li{
+	list-style: none;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+	margin: 0px 0px 10px;
+}
+.inner-about-long ul li img{
+	width: 13px;
+	height: 15px;
+	margin: 0px 10px 0px 0px;
+}
